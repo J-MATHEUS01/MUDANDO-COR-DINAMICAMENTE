@@ -1,0 +1,170 @@
+#teste{
+    background-color: yellowgreen;
+    width: 80vw;
+    margin: 5vh auto;
+}
+.btn{
+    position: relative;
+    left: 65vw;
+    top: 2vh;
+    border: none;
+    background-color: teal;
+    padding: 1.5vw;
+    color: white;
+    font-size: 25;
+    font-weight: 700;
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu li{
+    list-style-type: none;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12vw;
+}
+#menu li{
+    margin: 3vh 6vw;
+}
+#cont1{
+    width: 30%;
+    height: 70vh;
+    margin: 2vh 3%;
+    background-color: azure;
+}
+#menu a{
+    padding: 1vh 2vw;
+}
+#menu a:hover{
+    background-color: teal;
+}
+
+
+#cont1{
+    width: 30%;
+    height: 70vh;
+    margin: 2vh 3%;
+    background-color: azure;
+    
+
+}
+#cont2{
+    width: 30%;
+    height: 70vh;
+    margin: 2vh 3%;
+    background-color: azure;
+    
+
+}
+#cont3{
+    width: 30%;
+    height: 70vh;
+    margin: 2vh 3%;
+    background-color: azure;
+    
+
+}
+#conteudo{
+    display: flex;
+}
+#conteudo p,h2{
+    padding: 1vh 2vw;
+}
+body > h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+footer{
+    margin-top:10vh;
+}
+footer img{
+    width: 5vw;
+    display: block;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+}footer a{
+    text-decoration: none;
+    color: white;
+    padding: 3vh 3vw;
+    margin-bottom: 5vh;
+    font-size: 1em;
+    font-weight: 900;
+}
+footer a:hover{
+    background-color: teal;
+}
+
+.rede1{
+    float: left;
+    margin-left: 12vw;
+}
+.rede2{
+    float: right;
+    margin-right: 12vw;
+}
+.clear{
+    clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    #teste{
+        width: 90vw;
+        margin-top: 0px;
+    }
+    nav{
+        position: relative;
+        bottom: 15vh;
+        left: 30vw;
+    }
+    #menu {
+        display: flex;
+        flex-direction: row;
+    }
+    #menu li{
+        list-style-type:none;
+    }
+    header{
+    text-align: center;
+    }
+    .logo{
+        position: relative;
+        bottom: 200000px;
+    }
+    #menu li{
+        margin-right: 2vw;
+        margin-left: 2vw;
+        position: relative;
+        top: 5vh;
+        right: 15vw;
+    }
+    nav{
+        position: relative;
+        right: 3vw;
+    }
+    .btn{
+        position: relative;
+        top: 10vh;
+        left: 0vw;
+    }
+    #conteudo{
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+    #conteudo section{
+        width: 60vw;
+        height: 38vh;
+        margin: 1vh auto;
+        
+
+    }
+  }
+  
